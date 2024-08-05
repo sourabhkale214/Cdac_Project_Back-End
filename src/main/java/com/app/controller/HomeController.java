@@ -20,7 +20,8 @@ import com.app.service.ILoginService;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://cdac-project-front-end.vercel.app/")
 public class HomeController {
 	@Autowired
 	ILoginService loginService;
