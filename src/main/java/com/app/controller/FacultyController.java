@@ -39,7 +39,8 @@ import com.app.filehandlingutils.FileUploadUtils;
 import com.app.service.IFacultyService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://cdac-project-front-end.vercel.app/")
 @RequestMapping("/faculty")
 public class FacultyController {
 
