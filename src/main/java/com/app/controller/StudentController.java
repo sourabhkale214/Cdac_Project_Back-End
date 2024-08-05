@@ -38,7 +38,8 @@ import com.app.service.IStudentService;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://cdac-project-front-end.vercel.app/")
 public class StudentController {
 
 	@Autowired
