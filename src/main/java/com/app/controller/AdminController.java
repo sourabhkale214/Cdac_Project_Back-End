@@ -21,7 +21,8 @@ import com.app.entities.User;
 import com.app.service.IAdminService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://cdac-project-front-end.vercel.app/")
 @RequestMapping("/admin")
 public class AdminController {
 
